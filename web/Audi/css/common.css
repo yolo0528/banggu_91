@@ -1,0 +1,236 @@
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#header {
+    position: relative;
+    width: 100%;
+    position: fixed;
+    height: 100px;
+    line-height: 100px;
+    z-index: 100;
+    transition: all 0.3s;
+
+}
+
+
+#header.header_bg {
+    background: #fff;
+    height: auto;
+    line-height: 80px;
+}
+
+
+#header .header_wrap {}
+
+#header .header_wrap .logo {
+    float: left;
+    width: 100px;
+}
+
+#header .header_wrap .logo img {
+    vertical-align: middle;
+}
+
+#header .header_wrap #nav {
+    float: right;
+}
+
+#header .header_wrap #nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#header .header_wrap #nav ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+#header .header_wrap #nav ul li a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+
+.hamburger .line {
+    width: 50px;
+    height: 5px;
+    background-color: #000;
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#hamburger-5.is-active {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#hamburger-5.is-active .line:nth-child(1),
+#hamburger-5.is-active .line:nth-child(3) {
+    width: 35px;
+    -webkit-transform-origin: right;
+    -moz-transform-origin: right;
+    -ms-transform-origin: right;
+    -o-transform-origin: right;
+    transform-origin: right;
+}
+
+#hamburger-5.is-active .line:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger-5 .line:nth-child(2) {
+    -webkit-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+#hamburger-5.is-active .line:nth-child(1) {
+    -webkit-transform: translateY(15px) rotate(45deg);
+    -ms-transform: translateY(15px) rotate(45deg);
+    -o-transform: translateY(15px) rotate(45deg);
+    transform: translateY(15px) rotate(45deg);
+}
+
+#hamburger-5.is-active .line:nth-child(3) {
+    -webkit-transform: translateY(-15px) rotate(-45deg);
+    -ms-transform: translateY(-15px) rotate(-45deg);
+    -o-transform: translateY(-15px) rotate(-45deg);
+    transform: translateY(-15px) rotate(-45deg);
+}
+
+.mobile_menu {
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 15px;
+    top: 15px;
+    display: none;
+}
+
+#footer {
+    background: #000;
+    color: #fff;
+    padding: 80px 0 10px 0px;
+}
+
+#footer .search {
+    float: left;
+
+}
+
+
+#footer input {
+    width: 350px;
+    height: 50px;
+    border: 0;
+    vertical-align: top;
+    margin-right: 10px
+}
+
+#footer button {
+    width: 55px;
+    height: 50px;
+    border: 0;
+    background: url(../img/search.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#footer .search p {
+    margin-bottom: 10px
+}
+
+#footer .footer-top {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#footer .sns {
+    float: right;
+    padding: 27px 0;
+
+}
+
+#footer .sns li {
+    display: inline-block;
+    margin-left: 30px;
+    width: 20px;
+}
+
+#footer .sns li:nth-child(1) {
+    margin-left: 0px;
+}
+
+#footer .sns li img {
+    width: 100%;
+}
+
+#footer .business li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#footer .business li:nth-child(1) {
+
+    margin-left: 0px;
+}
+
+@media (max-width: 1200px) {
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+
+    #header {
+        background: #fff;
+        height: auto;
+        line-height: 80px;
+    }
+
+    #header .header_wrap .logo {
+        float: none;
+    }
+
+    #header .header_wrap #nav {
+        float: none;
+        display: none
+    }
+
+    #header .header_wrap #nav.is-active {
+        display: block
+    }
+
+    #footer {
+        padding: 50px 0 0
+    }
+
+    .mobile_menu {
+        display: block;
+    }
+
+    #footer .sns {
+        float: left;
+        padding: 27px 0 0 0;
+    }
+
+
+}
+
+@media (max-width: 576px) {}

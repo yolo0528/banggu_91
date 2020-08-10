@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>방동혁 포트폴리오</title>
+    <meta name="author" content="BANGDONGHYUK">
+    <meta name="description" content="Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/portfoilo.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <!-- HTLM5shiv ie6~8 -->
+    <!--[if lt IE 9]> 
+      <script src="assets/js/html5shiv.min.js"></script>
+      <script type="text/javascript">
+         alert("현재 브라우저는 지원하지 않습니다. 크롬 브라우저를 추천합니다.!");
+      </script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="container">
+                <div class="header_wrap">
+                    <h1><a href="index.html">BANGDONGHYUK</a></h1>
+                    <nav id="nav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Portfolio.html">Portfolio</a></li>
+                        </ul>
+                    </nav>
+                    <div class="menu">
+                        <img src="img/menu.svg" alt="menu">
+                    </div>
+                    <ul class="nav_m">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Portfolio.html">Portfolio</a></li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </header>
+        <main id="main">
+            <div class="section_sub">
+                <div class="container">
+                    <div class="portfolio">
+                        <div class="box box01">
+                            <div class="img">
+                                <a href="web/Audi/index.html">
+                                    <div class="text">
+                                        <h3>Audi</h3>
+                                        <p>아우디 홈페이지 리뉴얼</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="box box02">
+                            <div class="img">
+                                <a href="web/Publishing/index.html">
+                                    <div class="text">
+                                        <h3>Publishing</h3>
+                                        <p>웹퍼블리싱</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="box box03">
+                            <div class="img">
+                                <a href="web/dior/index.html">
+                                    <div class="text">
+                                        <h3>Dior</h3>
+                                        <p>디올 홈페이지 리뉴얼</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="box box04">
+                            <div class="img">
+                                <a href="http://www.atonine.com">
+                                    <div class="text">
+                                        <h3>ATONINE</h3>
+                                        <p>아토나인 화장품 쇼핑몰 리뉴얼</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="portfolio">
+                        <div class="box box05">
+                            <div class="img">
+                                <a href="http://www.todayasablessing.com/">
+                                    <div class="text">
+                                        <h3>선물같은오늘</h3>
+                                        <p>쇼핑몰 세팅 및 상세페이지 제작</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </main>
+        <footer id="footer">
+            <div class="container">
+                <h2>Say Hello.</h2>
+                <div class="border_white"></div>
+                <div class="email">
+                    <p>Email:</p>
+                    <span>yolo0528@naver.com</span>
+                </div>
+                <div class="addres">
+                    <p>Addres:</p>
+                    <span>경기도 오산시 운암로 122 115동 1104호</span>
+                </div>
+
+                <div class="tel">
+                    <p>Tel:</p>
+                    <span>010-3774-8119</span>
+                </div>
+
+
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.Project_sub01').click(function() {
+                $('.sub_box01').toggleClass('open');
+            });
+            $('.Project_sub02').click(function() {
+                $('.sub_box02').toggleClass('open');
+            });
+            $('.Project_sub03').click(function() {
+                $('.sub_box03').toggleClass('open');
+            });
+            $('.Project_sub04').click(function() {
+                $('.sub_box04').toggleClass('open');
+            });
+        });
+
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('.menu').click(function() {
+                $('.nav_m').toggleClass('open');
+            });
+        });
+
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('.skill_list a').click(function() {
+                $('.skill_box').addClass('open');
+            });
+
+            $('.yellow_arrow').click(function() {
+                $('.skill_box').removeClass('open');
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

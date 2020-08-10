@@ -1,0 +1,444 @@
+.visual {
+    width: 100%;
+
+    background-image: url(../img/visual.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.visual_wrap {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    display: table;
+}
+
+.visual_text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.visual_text_01 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-family: "Stackyard PERSONAL USE";
+
+}
+
+.visual_text_02 {
+    font-family: "Lato";
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    letter-spacing: 20px;
+}
+
+.visual_text_03 {
+    font-size: 18px;
+    font-family: "Night Still Comes";
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.visual_text_04 {
+    display: inline-block;
+    text-decoration: none;
+    width: 150px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    font-family: "Night Still Comes";
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 23px;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.arrow p {
+    font-family: "Pe-icon-7-stroke";
+    font-size: 40px;
+    color: #fff;
+    transform: rotate(90deg)
+}
+
+.hellow {
+    background-color: #efefef;
+    height: 740px;
+
+}
+
+.hellow-wrap {
+    padding: 160px 130px 120px 130px;
+    position: relative;
+
+}
+
+
+
+.hellow h2 {
+    font-size: 30px;
+    font-family: "Stackyard PERSONAL USE";
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.hellow_text {
+    width: 600px;
+    position: relative;
+    z-index: 100;
+
+}
+
+.hellow_text01 {
+    font-family: "Night Still Comes";
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.hellow_text02 {
+    font-family: "Night Still Comes";
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #969696;
+    margin-bottom: 40px;
+}
+
+.hellow_text03 {
+    text-decoration: none;
+    width: 168px;
+    height: 44px;
+    line-height: 44px;
+    display: block;
+    border: 1px solid #000;
+    border-radius: 22px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.hellow_text03 span {
+    text-align: left;
+    font-family: "Night Still Comes";
+    font-size: 15px;
+    color: #000;
+    float: left;
+
+}
+
+.hellow_text03 i {
+    font-style: normal;
+    font-family: "Pe-icon-7-stroke";
+    font-size: 30px;
+    color: #000;
+    float: right;
+    transform: rotate(90deg)
+}
+
+
+.hellow_img {
+    position: absolute;
+    left: 570px;
+    top: 160px;
+    border: 3px solid #cccccc;
+    width: 313px;
+    height: 467px;
+    box-sizing: border-box;
+}
+
+.hellow_bg {
+    background: url(../img/hellow.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 467px;
+    transform: translate(160px, -60px);
+}
+
+.portfoilo {
+    padding: 130px 0 0px;
+    height: 1225px;
+    overflow: hidden;
+}
+
+.portfoilo-wrap {
+    position: relative;
+
+}
+
+.portfoilo_text {
+    display: block;
+    width: 370px;
+}
+
+
+.portfoilo h2 {
+    font-family: "Night Still Comes";
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.portfoilo p {
+    font-family: "Lato";
+    font-size: 14px;
+    color: #8f8f8f;
+    letter-spacing: 1px;
+
+}
+
+
+
+.portfoilo_01 {
+    position: absolute;
+    left: 0;
+    top: 145px;
+    width: 370px;
+    height: 520px;
+    background-image: url(../img/portfoilo_01.jpg);
+    background-size: cover;
+    background-position: 10%;
+}
+
+
+
+
+.portfoilo_02 {
+    position: absolute;
+    left: 400px;
+    top: 0;
+    width: 370px;
+    height: 520px;
+    background-image: url(../img/portfoilo_02.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.portfoilo_03 {
+    position: absolute;
+    left: 800px;
+    top: 50px;
+    width: 370px;
+    height: 520px;
+    background-image: url(../img/portfoilo_03.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.portfoilo_04 {
+    position: absolute;
+    left: 0;
+    top: 705px;
+    width: 370px;
+    height: 520px;
+    background-image: url(../img/portfoilo_04.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.portfoilo_05 {
+    position: absolute;
+    left: 400px;
+    top: 560px;
+    width: 370px;
+    height: 520px;
+    background-image: url(../img/portfoilo_05.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.portfoilo_06 {
+    position: absolute;
+    left: 800px;
+    top: 610px;
+    width: 370px;
+    height: 520px;
+    background-image: url(../img/portfoilo_06.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.studio {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/studio.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 140px;
+}
+
+
+.studio_wrap {
+    display: table;
+    margin: 0 auto;
+}
+
+.studio_text {
+
+    max-width: 920px;
+    height: 400px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.studio_text01 {
+    font-family: "Night Still Comes";
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.studio_text02 {
+    font-family: "Night Still Comes";
+    font-size: 25px;
+
+}
+
+.studio_text03 {
+    font-family: "Night Still Comes";
+    font-size: 15px;
+}
+
+
+
+.studio_control {
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translate(-50%)
+}
+
+.studio_control ul li {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.studio_control ul li.active {
+    width: 28px;
+    height: 6px;
+}
+
+.contact {
+    padding: 130px 0;
+
+    overflow: hidden;
+}
+
+.contact h2 {
+    font-family: "Night Still Comes";
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.contact p {
+    font-family: "Lato";
+    font-size: 14px;
+    color: #8f8f8f;
+    letter-spacing: 1px;
+}
+
+.contact ul li {
+    float: left;
+}
+
+.contact ul li:nth-child(1) {
+    width: 370px;
+    margin-right: 30px;
+}
+
+.contact ul li:nth-child(2) {
+    width: 770px;
+}
+
+.name {
+    width: 48%;
+    height: 30px;
+    margin-right: 4%;
+    float: left;
+    border: 0;
+    border-bottom: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+.subject {
+    width: 48%;
+    height: 30px;
+    float: left;
+    border: 0;
+    border-bottom: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+.say_text {
+    width: 100%;
+    height: 70px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+.send {
+    width: 168px;
+    height: 44px;
+    border: 1px solid #000;
+    border-radius: 22px;
+    background: #fff;
+}
+
+#footer {
+    height: 100px;
+    line-height: 100px;
+}
+
+.footer_wrap {
+    border-top: 1px dotted #e1e1e1;
+}
+
+.sns {
+    float: right;
+}
+
+.all {
+    font-family: "Night Still Comes";
+    float: left;
+    color: #686868;
+}
+
+.sns li {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+
+@media screen(max-width: 1200px) {}
+
+@media screen(max-width: 992px) {}
+
+@media screen(max-width: 768px) {}
+
+@media screen(max-width: 576px) {}
+
+@media screen(max-width: 320px) {}

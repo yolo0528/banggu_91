@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dior</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+        $(function() {
+            $(".menu").click(function() {
+                $(".nav_m").slideToggle();
+            });
+        });
+
+    </script>
+    <script>
+        $(function() {
+            $(".menu").click(function() {
+                $(".down").toggleClass('downstart');
+                $(".fade").toggleClass("fadestart");
+                $(".up").toggleClass("upstart");
+            });
+        });
+
+    </script>
+
+    <script>
+        $(window).scroll(function() {
+            var sc = $(window).scrollTop()
+            if (sc > 100) {
+                $("#header-sroll").addClass("small font")
+            } else {
+                $("#header-sroll").removeClass("small font")
+            }
+        });
+
+    </script>
+</head>
+
+<body>
+    <div id="page-wrapper">
+
+        <!-- 헤더 -->
+        <header class="header">
+            <div id="header-sroll">
+                <h1 class="logo"><a href="#">Dior</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#">WOMAN</a></li>
+                        <li><a href="#">MAN</a></li>
+                        <li><a href="#">FRAGRANCE</a></li>
+                        <li><a href="#">MAKEUP</a></li>
+                        <li><a href="#">SKINCARE</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="header_m">
+            <div class="menu">
+                <div class="bar down"></div>
+                <div class="bar fade"></div>
+                <div class="bar up"></div>
+            </div>
+            <h1 class="logo"><a href="#">Dior</a></h1>
+            <div class="nav_m">
+                <ul>
+                    <li><a href="#">WOMAN</a></li>
+                    <li><a href="#">MAN</a></li>
+                    <li><a href="#">FRAGRANCE</a></li>
+                    <li><a href="#">MAKEUP</a></li>
+                    <li><a href="#">SKINCARE</a></li>
+                </ul>
+            </div>
+        </div>
+        <aside id="visual">
+            <div>
+                <h1 class="line-1 anim-typewriter">Dior / Design</h1>
+            </div>
+        </aside>
+        <div id="product" class="animatable fadeInDown">
+            <div class="product_list">
+                <ul class="col_1">
+                    <li>
+                        <a href="#">
+                            <h4>LADY DIOR BAG IN BLACK</h4>
+                            <p>₩5,100,000</p>
+                            <div>
+                                <p>next</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+
+                        <a href="#">
+                            <h4>DIORSTELLAIRE4</h4>
+                            <p>₩555,000</p>
+                            <div>
+                                <p>next</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h4>ONE ESSENTIAL</h4>
+                            <p>₩160,000</p>
+                            <div>
+                                <p>next</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="product_list">
+                <ul class="col_2">
+                    <li>
+                        <a href="#">
+                            <h4>LA D DE DIOR ABEILLE</h4>
+                            <p>₩1,500,000</p>
+                            <div>
+                                <p>next</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h4>MISS DIOR</h4>
+                            <p>₩180,000</p>
+                            <div>
+                                <p>next</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="fashionshow">
+            <div class="show_02">
+                <h2>UTUMN-WINTER 2018-2019</h2>
+                <p>READY-TO-WEAR SHOW</p>
+                <ul>
+                    <li><a href="#"><img src="images/page/1.jpg" alt="show"></a></li>
+                    <li><a href="#"><img src="images/page/2.jpg" alt="show"></a></li>
+                    <li><a href="#"><img src="images/page/3.jpg" alt="show"></a></li>
+                    <li><a href="#"><img src="images/page/4.jpg" alt="show"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="page">
+            <div class="page_img">
+                <div class="event">
+                    <div class="event_box">
+                        <h2>EVENT / CAMPAIGN</h2>
+                        <p>“Challenges are what make life interesting overcoming them is what makes life meaningful”</p>
+                        <a href="#" class="btn-line-white">MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="press">
+            <h2>PRESS</h2>
+            <p>OUR LATEST AND GREATEST.</p>
+            <div class="layout-wrapper">
+                <div class="item_main">
+                    <a href="#" class="item-tablecell">
+                        <h3>DIOR HOMME
+                        </h3>
+                        <p>2018.05.28</p>
+                    </a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h3>TEXT</h3>
+                            <p>SHOW ME THE MONEY</p>
+                        </a>
+                    </li>
+                    <li>
+
+                    </li>
+                    <li>
+
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>TEXT</h3>
+                            <p>SHOW ME THE MONEY</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <div class="footer_layout">
+                <ul class="footer_list">
+                    <li>
+                        <img src="images/logo.png" alt="logo" class="footer_img">
+                        <br>
+                        <p>
+                            Monday to Friday 9am-6pm <br><br> Saturday to Sunday 12pm-5pm gmt+1 <br><br> +46 (0)8 55 11 94 00 <br><br> csr@acnestudios.com
+                            <br><br> © 2016 Acne Studios All rights reserved<br><br>
+                        </p>
+                    </li>
+                    <li>
+                        <h2>고객센터</h2>
+                        <br>
+                        <p>
+                            <a href="#">연락처</a><br><br>
+                            <a href="#">배송 및 조회</a><br><br>
+                            <a href="#">반품 &amp; 환불</a><br><br>
+                            <a href="#">FAQ</a><br><br>
+                        </p>
+                    </li>
+                    <li>
+                        <form method="get" class="search">
+                            <div class="form__field">
+                                <input type="search" name="search" class="form__input">
+                                <input type="submit" value="Search" class="button">
+                            </div>
+                        </form>
+
+                        <div class="sns">
+                            <div><img src="images/facebook.png" alt="facebook"></div>
+                            <div><img src="images/instegram.png" alt="instegram"></div>
+                            <div><img src="images/youtube.png" alt="youtube"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

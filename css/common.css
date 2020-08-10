@@ -1,0 +1,330 @@
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    font-family: 'BMDOHYEON';
+}
+
+::selection {
+    background: yellow;
+    color: red;
+}
+
+
+
+
+#wrap {
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    z-index: 900;
+    width: 85%;
+    max-width: 1980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#header {
+    width: 100%;
+}
+
+.header_wrap {
+    border-bottom: 3px solid #000;
+    height: 118px;
+    line-height: 118px;
+
+}
+
+
+
+#header h1 {
+    float: left;
+    font-family: "Helvetica-CondensedBlack";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+#header h1 a {
+    color: #000
+}
+
+#nav {
+    float: right;
+}
+
+
+#nav ul li a {
+    color: #000
+}
+
+.menu {
+    float: right;
+    padding: 7px 0;
+    display: none;
+    cursor: pointer;
+}
+
+.nav_m {
+    width: 100%;
+    position: absolute;
+    top: 121px;
+    line-height: 50px;
+    background: #fff;
+    z-index: 100;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    transition: height 0.3s;
+    height: 0;
+
+}
+
+.nav_m.open {
+    display: block;
+    height: 100px;
+    -webkit-transition: height 0.3s;
+    transition: height 0.3s;
+}
+
+.nav_m li {
+    width: 100%;
+    display: block;
+
+
+}
+
+.nav_m li a {
+    color: #000
+}
+
+.nav_m li a:hover {
+    color: #005cef;
+}
+
+
+
+#nav ul li {
+    float: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#nav ul li:nth-child(1) {
+    margin-right: 20px;
+}
+
+
+#main {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.border_white {
+    display: block;
+    width: 100%;
+    height: 8px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.border_blue {
+    display: block;
+    width: 100%;
+    height: 8px;
+    background-color: #005cef;
+    clear: both;
+}
+
+#footer {
+    background-color: #005cef;
+    padding: 50px 0;
+}
+
+
+
+#footer h2 {
+
+    font-size: 110px;
+    line-height: 200px;
+    color: #fff;
+}
+
+#footer .email {
+    margin-bottom: 50px;
+}
+
+#footer .email p {
+    width: 100%;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+#footer .email span {
+
+    font-size: 28px;
+    color: #fff;
+}
+
+#footer .addres {
+    margin-bottom: 50px;
+}
+
+#footer .addres p {
+
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+#footer .addres span {
+
+    font-size: 28px;
+    color: #fff;
+}
+
+#footer .tel p {
+
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#footer .tel span {
+
+    font-size: 28px;
+    color: #fff;
+}
+
+
+
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+    #nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .section {
+        padding: 100px 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 50px 0;
+    }
+
+    .header_wrap {
+        height: 80px;
+        line-height: 80px;
+    }
+
+    #footer h2 {
+        font-size: 80px;
+        line-height: 140px;
+    }
+
+    #footer .email p {
+        font-size: 38px;
+    }
+
+    #footer .email span {
+        font-size: 18px;
+    }
+
+    #footer .addres p {
+        font-size: 38px;
+    }
+
+    #footer .addres span {
+        font-size: 18px;
+    }
+
+    #footer .tel p {
+        font-size: 38px;
+    }
+
+    #footer .tel span {
+        font-size: 18px;
+    }
+
+    .border_blue {
+        height: 5px
+    }
+
+    .nav_m {
+        top: 83px;
+    }
+
+    #header h1 a {
+        font-size: 24px;
+    }
+
+
+
+}
+
+@media (max-width: 576px) {
+    #footer h2 {
+        font-size: 60px;
+        line-height: 120px;
+    }
+
+    #footer .email p {
+        font-size: 32px;
+    }
+
+    #footer .email span {
+        font-size: 16px;
+    }
+
+    #footer .addres p {
+        font-size: 32px;
+    }
+
+    #footer .addres span {
+        font-size: 16px;
+    }
+
+    #footer .tel p {
+        font-size: 32px;
+    }
+
+    #footer .tel span {
+        font-size: 16px;
+    }
+    
+    #footer h2{font-size: 50px;}
+
+}
